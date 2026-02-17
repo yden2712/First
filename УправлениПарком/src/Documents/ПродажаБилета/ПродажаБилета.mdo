@@ -192,10 +192,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6e9376bb-f03e-4736-97b8-ad7cec1b9e9a">
-      <name>Количкство</name>
+      <name>Количество</name>
       <synonym>
         <key>ru</key>
-        <value>Количкство</value>
+        <value>Количество</value>
       </synonym>
       <type>
         <types>Number</types>
