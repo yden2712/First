@@ -50,6 +50,40 @@
     <items xsi:type="form:FormGroup">
       <name>ГруппаЛеваяКолонка</name>
       <id>41</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПопулярныйПокупки</name>
+        <id>121</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа популярный покупки</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаПопулярныйПокупкиРасширеннаяПодсказка</name>
+          <id>122</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <showTitle>true</showTitle>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
       <items xsi:type="form:Table">
         <name>ПозицииПродажи</name>
         <id>4</id>
@@ -765,6 +799,10 @@
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <handlers>
+        <event>URLProcessing</event>
+        <name>ДекорацияБаллыКлиентаОбработкаНавигационнойСсылки</name>
+      </handlers>
       <horizontalAlign>Left</horizontalAlign>
       <backColor xsi:type="core:ColorRef">
         <color>Style.ToolTipBackColor</color>
@@ -1209,6 +1247,75 @@
         </valueType>
       </parameters>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ДинамическиеЭлементы</name>
+    <title>
+      <key>ru</key>
+      <value>Динамические элементы</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>ИмяЭлемента</name>
+      <title>
+        <key>ru</key>
+        <value>Имя элемента</value>
+      </title>
+      <id>16</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Номенклатура</name>
+      <title>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </title>
+      <id>17</id>
+      <valueType>
+        <types>CatalogRef.Номенклатура</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Активность</name>
+      <title>
+        <key>ru</key>
+        <value>Активность</value>
+      </title>
+      <id>18</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>ЗаписатьПродажу</name>
