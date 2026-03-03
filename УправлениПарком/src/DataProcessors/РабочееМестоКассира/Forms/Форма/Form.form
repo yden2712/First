@@ -521,6 +521,10 @@
         <items xsi:type="form:FormField">
           <name>СписокНоменклатурыНоменклатура</name>
           <id>95</id>
+          <title>
+            <key>ru</key>
+            <value>Номенклатура</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -563,7 +567,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>СписокНоменклатуры.НоменклатураКоличествоПосещений</segments>
+            <segments>СписокНоменклатуры.Номенклатура.КоличествоПосещений</segments>
           </dataPath>
           <extendedTooltip>
             <name>СписокНоменклатурыНоменклатураКоличествоПосещенийРасширеннаяПодсказка</name>
