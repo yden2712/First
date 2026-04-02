@@ -230,10 +230,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.АнализЖурналаРегистрации.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.АнализПравДоступа.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -590,7 +586,6 @@
       <group>ActionsPanelReports</group>
       <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
       <commands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commands>
-      <commands>Report.АнализЖурналаРегистрации.StandardCommand.Open</commands>
       <commands>Report.АнализПравДоступа.StandardCommand.Open</commands>
       <commands>Report.ОбъемНенужныхФайлов.StandardCommand.Open</commands>
       <commands>Report.ОценкаПроизводительности.StandardCommand.Open</commands>
