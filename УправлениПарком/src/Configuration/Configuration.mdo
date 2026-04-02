@@ -46,7 +46,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.ПА_Администрирование</subsystems>
   <subsystems>Subsystem.Персонал</subsystems>
   <subsystems>Subsystem.Посещения</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
@@ -55,7 +55,7 @@
   <sessionParameters>SessionParameter.ПА_ТекущийПользователь</sessionParameters>
   <roles>Role.Кассир</roles>
   <roles>Role.ОператорАттракционов</roles>
-  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ПА_ПолныеПрава</roles>
   <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
   <commonModules>CommonModule.ПА_Пользователи</commonModules>
   <constants>Constant.МаксимальнаяДоляОплатыБаллами</constants>
@@ -64,7 +64,7 @@
   <catalogs>Catalog.ВидыАттракционов</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПА_Пользователи</catalogs>
   <documents>Document.ПланированиеОтсутствия</documents>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>

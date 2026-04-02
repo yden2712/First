@@ -6,6 +6,6 @@
     <value>П а текущий пользователь</value>
   </synonym>
   <type>
-    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.ПА_Пользователи</types>
   </type>
 </mdclass:SessionParameter>

@@ -320,7 +320,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Пользователи</types>
+      <types>CatalogObject.ПА_Пользователи</types>
     </valueType>
     <view>
       <common>true</common>

@@ -5,6 +5,6 @@
     <subsystems>Subsystem.Посещения</subsystems>
     <subsystems>Subsystem.Персонал</subsystems>
     <subsystems>Subsystem.Справочники</subsystems>
-    <subsystems>Subsystem.Администрирование</subsystems>
+    <subsystems>Subsystem.ПА_Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>
