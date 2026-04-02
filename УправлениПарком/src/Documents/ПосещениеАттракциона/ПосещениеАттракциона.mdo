@@ -28,8 +28,8 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <registerRecords>AccumulationRegister.ПосещениеАттракционов</registerRecords>
+  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f815eab9-78b1-4461-90b8-a1c1ad433dcd">
@@ -88,7 +88,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ПА_Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

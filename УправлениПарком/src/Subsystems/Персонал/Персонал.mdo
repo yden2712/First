@@ -10,7 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Сервис</picture>
   </picture>
-  <content>Catalog.Пользователи</content>
+  <content>Catalog.ПА_Пользователи</content>
   <content>Document.ПланированиеОтсутствия</content>
   <content>DataProcessor.ПланиеровекниОтпусков</content>
   <content>InformationRegister.ПлановыеОтсутствия</content>
