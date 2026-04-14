@@ -276,16 +276,4 @@
   <templates uuid="b46ddb87-962c-4381-b314-6baa440242ce">
     <name>Печать</name>
   </templates>
-  <commands uuid="904652ad-a44c-4fa5-80c4-dc284c5a9cba">
-    <name>Печать</name>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.ПродажаБилета</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Print</picture>
-    </picture>
-  </commands>
 </mdclass:Document>

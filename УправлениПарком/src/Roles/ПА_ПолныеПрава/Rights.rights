@@ -131,13 +131,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПродажаБилета.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ВидыАттракционов</name>
 		<right>
 			<name>InteractiveDelete</name>
