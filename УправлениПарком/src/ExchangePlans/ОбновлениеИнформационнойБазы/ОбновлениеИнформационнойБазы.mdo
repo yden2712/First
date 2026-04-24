@@ -350,6 +350,9 @@
     <mdObject>InformationRegister.НастройкиСинхронизацииФайлов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ПродажаБилетаПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПрогрессОбновления</mdObject>
   </content>
   <content>
@@ -557,6 +560,9 @@
     <mdObject>Constant.ИспользоватьАвтономнуюРаботуВМоделиСервиса</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПредметыПапкиВзаимодействий</mdObject>
   </content>
   <content>
@@ -732,6 +738,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.МуниципальнаяИерархия</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.АттракционыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
@@ -978,6 +987,9 @@
   </content>
   <content>
     <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлиентыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</mdObject>

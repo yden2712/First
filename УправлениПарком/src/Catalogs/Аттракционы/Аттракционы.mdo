@@ -35,6 +35,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Аттракционы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Аттракционы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="64398611-0188-4c91-ad42-c27e5da4ad91">
     <name>ВидАттракциона</name>
     <synonym>
@@ -51,10 +52,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="dedf61f7-65a5-47e2-8b25-319606fd0edb">
-    <name>Фото</name>
+    <name>УдалитьФото</name>
     <synonym>
       <key>ru</key>
-      <value>Фото</value>
+      <value>(Не использовать) Фото</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -65,11 +66,70 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="238c9797-0b73-40cb-95d2-835e6b269c28">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6be59ab9-7d25-46cb-ac8c-5cd29927e9ce">
+    <name>ФотоПеренесено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото перенесено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="282b8c68-a4f6-4ae4-9204-ea7a08ac21d7">
+    <name>Коментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="3ce34dba-63dc-4089-969d-bac49d144102">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="810ad285-4d17-4948-80d1-fe4459a624e8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

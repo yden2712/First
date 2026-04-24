@@ -11,13 +11,17 @@
   <type>
     <types>CatalogObject.СообщениеSMSПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.АттракционыПрисоединенныеФайлы</types>
     <types>CatalogObject.ВстречаПрисоединенныеФайлы</types>
     <types>CatalogObject.ТелефонныйЗвонокПрисоединенныеФайлы</types>
+    <types>CatalogObject.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
+    <types>CatalogObject.ПродажаБилетаПрисоединенныеФайлы</types>
     <types>CatalogObject.ШаблоныСообщенийПрисоединенныеФайлы</types>
     <types>CatalogObject.МашиночитаемыеДоверенностиПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
     <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.КлиентыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

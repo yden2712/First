@@ -9,12 +9,16 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
     <types>CatalogRef.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.МашиночитаемыеДоверенностиПрисоединенныеФайлы</types>
     <types>CatalogRef.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.СообщениеSMSПрисоединенныеФайлы</types>
+    <types>CatalogRef.ПродажаБилетаПрисоединенныеФайлы</types>
+    <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
+    <types>CatalogRef.КлиентыПрисоединенныеФайлы</types>
     <types>CatalogRef.ВстречаПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
     <types>CatalogRef.ТелефонныйЗвонокПрисоединенныеФайлы</types>

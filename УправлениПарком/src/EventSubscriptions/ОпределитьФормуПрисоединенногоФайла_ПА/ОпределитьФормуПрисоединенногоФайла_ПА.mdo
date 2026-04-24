@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c69891ef-3b5d-4824-ae22-c4d308c66025">
+  <name>ОпределитьФормуПрисоединенногоФайла_ПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определить форму присоединенного файла (Парк аттракционов)</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.АттракционыПрисоединенныеФайлы</types>
+    <types>CatalogManager.КлиентыПрисоединенныеФайлы</types>
+    <types>CatalogManager.ПродажаБилетаПрисоединенныеФайлы</types>
+    <types>CatalogManager.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

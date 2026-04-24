@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.1.3</version>
+  <version>1.0.1.8</version>
   <includeHelpInContents>true</includeHelpInContents>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
@@ -1400,6 +1400,7 @@
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейЛокализация</commonModules>
+  <commonModules>CommonModule.УправлениеКонтактнойИнформациейПА</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейПереопределяемый</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебныйВызовСервера</commonModules>
@@ -1581,6 +1582,7 @@
   <eventSubscriptions>EventSubscription.ОбработкаПолученияФормыПользователяДляНеразделенныхПользователей</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбработкаПредопределенныхЭлементовПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбработкаПроверкиЗаполненияПрисоединенногоФайла</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайла_ПА</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаВзаимодействия</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаМЧД</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаШаблоныСообщений</eventSubscriptions>
@@ -1627,6 +1629,7 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияЗадач</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлофДокументов_ПА</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокументаЗащитаПДн</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
@@ -1835,6 +1838,7 @@
   <commonCommands>CommonCommand.АрхивСообщенийОбменов</commonCommands>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
+  <commonCommands>CommonCommand.ГлавныеОтчеты</commonCommands>
   <commonCommands>CommonCommand.ДобавитьПользователейСервиса</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
@@ -2174,6 +2178,7 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <catalogs>Catalog.Аттракционы</catalogs>
+  <catalogs>Catalog.АттракционыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2201,6 +2206,7 @@
   <catalogs>Catalog.Календари</catalogs>
   <catalogs>Catalog.КлассификаторБанков</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.КлиентыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.КлючевыеОперации</catalogs>
   <catalogs>Catalog.КлючиДоступа</catalogs>
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
@@ -2224,6 +2230,7 @@
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ПрограммыЭлектроннойПодписиИШифрования</catalogs>
+  <catalogs>Catalog.ПродажаБилетаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
@@ -2238,6 +2245,7 @@
   <catalogs>Catalog.СценарииОбменовДанными</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.УчетныеЗаписиDSS</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
