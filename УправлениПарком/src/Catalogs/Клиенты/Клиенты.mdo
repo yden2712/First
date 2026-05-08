@@ -24,10 +24,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>СправочникКлиенты</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>Catalog.Клиенты.TabularSection.КонтактнаяИнформация</characteristicValues>
     <objectField>Catalog.Клиенты.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</objectField>
     <typeField>Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</typeField>
     <valueField>Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Представление</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

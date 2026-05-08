@@ -19,6 +19,7 @@
     <types>DocumentRef.ПродажаБилета</types>
     <types>DocumentRef.Встреча</types>
     <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.МашиночитаемыеДоверенности</types>
     <types>CatalogRef.ШаблоныСообщений</types>
     <types>DocumentRef.УстановкаЦенНоменклатуры</types>

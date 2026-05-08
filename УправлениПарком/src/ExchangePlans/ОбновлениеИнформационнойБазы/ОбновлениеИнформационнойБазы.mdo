@@ -872,6 +872,9 @@
     <mdObject>Constant.ОценкаПроизводительностиПериодЗаписи</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.НоменклатураПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ГлавныйУзел</mdObject>
   </content>
   <content>

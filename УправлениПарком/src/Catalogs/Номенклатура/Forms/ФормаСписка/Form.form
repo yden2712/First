@@ -47,6 +47,45 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormField">
+      <name>РодительКоментарий</name>
+      <id>42</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Родитель.Коментарий</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>РодительКоментарийРасширеннаяПодсказка</name>
+        <id>44</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РодительКоментарийКонтекстноеМеню</name>
+        <id>43</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаМетки</name>
       <id>28</id>
@@ -79,7 +118,6 @@
         </contextMenu>
         <type>PictureField</type>
         <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:ImageFieldExtInfo">
@@ -87,6 +125,9 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <valuesPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ПиктограммыСвойств</picture>
+          </valuesPicture>
           <border xsi:type="core:BorderDef">
             <style>Single</style>
             <width>1</width>
@@ -123,7 +164,6 @@
         </contextMenu>
         <type>PictureField</type>
         <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:ImageFieldExtInfo">
@@ -131,6 +171,9 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <valuesPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ПиктограммыСвойств</picture>
+          </valuesPicture>
           <border xsi:type="core:BorderDef">
             <style>Single</style>
             <width>1</width>
@@ -167,7 +210,6 @@
         </contextMenu>
         <type>PictureField</type>
         <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:ImageFieldExtInfo">
@@ -175,6 +217,9 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <valuesPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ПиктограммыСвойств</picture>
+          </valuesPicture>
           <border xsi:type="core:BorderDef">
             <style>Single</style>
             <width>1</width>
@@ -187,10 +232,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Метки</value>
-      </title>
       <extendedTooltip>
         <name>ГруппаМеткиРасширеннаяПодсказка</name>
         <id>29</id>
@@ -204,6 +245,10 @@
       <type>ColumnGroup</type>
       <extInfo xsi:type="form:ColumnGroupExtInfo">
         <showTitle>true</showTitle>
+        <showInHeader>true</showInHeader>
+        <headerPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Метка</picture>
+        </headerPicture>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">

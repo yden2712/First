@@ -13,6 +13,7 @@
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.АттракционыПрисоединенныеФайлы</types>
     <types>CatalogObject.ВстречаПрисоединенныеФайлы</types>
+    <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
     <types>CatalogObject.ТелефонныйЗвонокПрисоединенныеФайлы</types>
     <types>CatalogObject.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
     <types>CatalogObject.ПродажаБилетаПрисоединенныеФайлы</types>

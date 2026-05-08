@@ -9,6 +9,7 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
     <types>CatalogRef.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
     <types>CatalogRef.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.МашиночитаемыеДоверенностиПрисоединенныеФайлы</types>

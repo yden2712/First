@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc920f3-399d-44bf-b5ed-d2423f497e31">
+  <producedTypes>
+    <objectType typeId="4f574851-3659-4ee2-8d96-d07cd5e174d2" valueTypeId="b8ccb92f-6dba-498b-8c66-7c2e8ebff236"/>
+    <refType typeId="940bf177-5b4a-4c4c-8778-0ed47cc22f7b" valueTypeId="d1cc7ddb-b85c-4e67-b1db-f5af939c78e8"/>
+    <selectionType typeId="88e6dfce-7ca2-4fd7-a291-967459cd2e4d" valueTypeId="4e5eeae3-a886-494b-93c2-309fb7affbe4"/>
+    <listType typeId="b0884cc1-69c1-4678-bdcc-1a2f4b154836" valueTypeId="7a3d25ac-ecba-4b8c-b548-1e1ea3ee10e1"/>
+    <managerType typeId="f2bd8294-11e2-4606-a59d-1d5ca706f5af" valueTypeId="c9a63cba-cef8-4550-bb75-286e7c6ca11f"/>
+  </producedTypes>
+  <name>Описание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Описание.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Описание.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Описание.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="9666150d-4955-49ac-bc67-0ccd5b4ecac7">
+    <producedTypes>
+      <objectType typeId="e29bd734-03c4-4184-8ad0-5ddfeb1e6b36" valueTypeId="7c208d6d-31a7-4671-8804-03ad887f4243"/>
+      <rowType typeId="4ba15b47-edb0-4913-b808-cc3653c1ab02" valueTypeId="33ae2870-7679-4a98-9b0c-2de264d3fdc0"/>
+    </producedTypes>
+    <name>ТЧОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧОписание</value>
+    </synonym>
+    <attributes uuid="e2dff0fe-8adb-4f89-a9cf-96f52bd490f2">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="618e1b03-76db-4c9f-95fd-f0fce19386cf">
+      <name>РасположениеВКоде</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расположение в коде</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0baf4a78-749b-4fc7-9eec-ad307526a559">
+      <name>ПутьКФайлуОписания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к файлу описания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9e5040e3-8c85-47dc-9282-4f85388fb734">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

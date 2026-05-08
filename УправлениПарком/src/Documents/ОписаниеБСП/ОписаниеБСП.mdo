@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="156d6394-3d6f-49a2-9b32-a3b097b2a494">
+  <producedTypes>
+    <objectType typeId="63b6a560-750a-4a2f-87ea-73c85826b663" valueTypeId="c4869682-bdf0-47fd-96e8-f599681cc458"/>
+    <refType typeId="55ac22b1-f5d6-4cf3-9dd8-0aaedaffd6d7" valueTypeId="68f71c25-e208-4040-9993-9537a0d9699f"/>
+    <selectionType typeId="ac51c3f6-368b-4d51-9ddf-cb27e58500c6" valueTypeId="ca8e26dc-1f06-4051-b111-6342bbf6dfe9"/>
+    <listType typeId="d8ce4be6-deb3-47b0-8d72-a227dea45ac3" valueTypeId="448ab053-1e3e-42f3-8caf-536838a985be"/>
+    <managerType typeId="f46f8aa9-5f7a-4c3e-a439-18f5d6f325de" valueTypeId="2429cec0-802c-4909-af32-8e8c1cdca300"/>
+  </producedTypes>
+  <name>ОписаниеБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание БСП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОписаниеБСП.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОписаниеБСП.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОписаниеБСП.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9b0168e5-59a9-4236-8ce4-e4365c749412">
+    <name>ОбщееОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e3a08c33-42e4-4e00-8514-68141814d551">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="851417f5-c6cc-4b63-82c0-c78bba3cf46c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0adb6c48-6245-4973-9b8e-a89c83ab1b2d">
+    <producedTypes>
+      <objectType typeId="74047910-0265-4efb-91e5-36f8eae7c016" valueTypeId="a12b4f41-a8b9-4956-a3bd-6419b8595930"/>
+      <rowType typeId="d812c3ff-b506-4473-ac03-8e6cc1b1a293" valueTypeId="20f51950-d93e-4ecb-b3ae-9f8304c68df7"/>
+    </producedTypes>
+    <name>ТЧОписание1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧОписание1</value>
+    </synonym>
+    <attributes uuid="8bcc24fd-77cb-4e0f-8636-4c0da62061ee">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="efd38a97-823d-4a1a-bfcf-7b31f44fb9d1">
+      <name>Расположение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расположение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e01e8c69-fbb6-4f8a-ace2-906b49f6d803">
+      <name>СсылкаНаОписание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>60</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

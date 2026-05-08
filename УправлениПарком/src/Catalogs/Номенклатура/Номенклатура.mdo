@@ -100,10 +100,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Номенклатура</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -112,10 +116,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Номенклатура</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -190,6 +198,24 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="521d9639-a121-410a-ac44-80f1ffbfc0de">
+    <name>Коментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
