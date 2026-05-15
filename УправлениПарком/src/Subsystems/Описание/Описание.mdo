@@ -9,6 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Номенклатура</content>
   <content>DataProcessor.Описание</content>
-  <content>Document.ОписаниеБСП</content>
   <content>Catalog.Описание</content>
 </mdclass:Subsystem>

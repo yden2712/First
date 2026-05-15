@@ -31,26 +31,62 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Описание.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="83206fa6-72c9-4b1e-9e7d-ccea8ea98cbf">
+    <name>РасположениеВБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расположение в базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66fc870f-cb1c-4c8e-b397-04035fe1f173">
+    <name>ПутьКФайлуОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="9666150d-4955-49ac-bc67-0ccd5b4ecac7">
     <producedTypes>
       <objectType typeId="e29bd734-03c4-4184-8ad0-5ddfeb1e6b36" valueTypeId="7c208d6d-31a7-4671-8804-03ad887f4243"/>
       <rowType typeId="4ba15b47-edb0-4913-b808-cc3653c1ab02" valueTypeId="33ae2870-7679-4a98-9b0c-2de264d3fdc0"/>
     </producedTypes>
-    <name>ТЧОписание</name>
+    <name>ТЧДополнение</name>
     <synonym>
       <key>ru</key>
-      <value>ТЧОписание</value>
+      <value>ТЧДополнение</value>
     </synonym>
     <attributes uuid="e2dff0fe-8adb-4f89-a9cf-96f52bd490f2">
-      <name>Описание</name>
+      <name>ТабОписание</name>
       <synonym>
         <key>ru</key>
-        <value>Описание</value>
+        <value>Таб описание</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>150</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -59,15 +95,15 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="618e1b03-76db-4c9f-95fd-f0fce19386cf">
-      <name>РасположениеВКоде</name>
+      <name>ТабРасположениеВБазе</name>
       <synonym>
         <key>ru</key>
-        <value>Расположение в коде</value>
+        <value>Таб расположение в базе</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>20</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -76,15 +112,15 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="0baf4a78-749b-4fc7-9eec-ad307526a559">
-      <name>ПутьКФайлуОписания</name>
+      <name>ТабПутьКФайлуОписания</name>
       <synonym>
         <key>ru</key>
-        <value>Путь к файлу описания</value>
+        <value>Таб путь к файлу описания</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>100</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
