@@ -47,11 +47,11 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>РасположениеВБазе</name>
+    <name>КомментарийРасположение</name>
     <id>32</id>
     <title>
       <key>ru</key>
-      <value>Расположение</value>
+      <value>Комментарий (Расположение)</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -59,10 +59,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.РасположениеВБазе</segments>
+      <segments>Объект.КомментарийРасположение</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КомментарийРасположениеПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>РасположениеВБазеРасширеннаяПодсказка</name>
+      <name>КомментарийРасположениеРасширеннаяПодсказка</name>
       <id>34</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -72,7 +76,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>РасположениеВБазеКонтекстноеМеню</name>
+      <name>КомментарийРасположениеКонтекстноеМеню</name>
       <id>33</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -82,6 +86,10 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>EditTextChange</event>
+        <name>КомментарийРасположениеИзменениеТекстаРедактирования</name>
+      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
@@ -90,12 +98,38 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
+  <items xsi:type="form:Button">
+    <name>ДобавитьОисание</name>
+    <id>45</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДобавитьОисаниеРасширеннаяПодсказка</name>
+      <id>46</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ДобавитьОисание</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
   <items xsi:type="form:FormField">
-    <name>ПутьКФайлуОписания</name>
+    <name>ОписаниеХранилищеЗначений</name>
     <id>35</id>
     <title>
       <key>ru</key>
-      <value>Путь к файлу</value>
+      <value>Описание хранилище значений</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -103,10 +137,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПутьКФайлуОписания</segments>
+      <segments>Объект.ОписаниеХранилищеЗначений</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПутьКФайлуОписанияРасширеннаяПодсказка</name>
+      <name>ОписаниеХранилищеЗначенийРасширеннаяПодсказка</name>
       <id>37</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -116,7 +150,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПутьКФайлуОписанияКонтекстноеМеню</name>
+      <name>ОписаниеХранилищеЗначенийКонтекстноеМеню</name>
       <id>36</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -150,7 +184,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ПутьКФайлу</name>
+    <name>ПутьКФайлуСтраницы</name>
     <id>42</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -158,10 +192,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ПутьКФайлу</segments>
+      <segments>ПутьКФайлуСтраницы</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПутьКФайлуРасширеннаяПодсказка</name>
+      <name>ПутьКФайлуСтраницыРасширеннаяПодсказка</name>
       <id>44</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -171,7 +205,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПутьКФайлуКонтекстноеМеню</name>
+      <name>ПутьКФайлуСтраницыКонтекстноеМеню</name>
       <id>43</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -196,7 +230,6 @@
       <clearButton>true</clearButton>
       <openButton>true</openButton>
       <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
     </extInfo>
   </items>
@@ -240,62 +273,6 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <items xsi:type="form:FormGroup">
-    <name>СтраницаГлавная</name>
-    <id>38</id>
-    <items xsi:type="form:FormGroup">
-      <name>Страница1</name>
-      <id>40</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Страница1</value>
-      </title>
-      <extendedTooltip>
-        <name>Страница1РасширеннаяПодсказка</name>
-        <id>41</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>Page</type>
-      <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
-        <showTitle>true</showTitle>
-      </extInfo>
-    </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Страница главная</value>
-    </title>
-    <extendedTooltip>
-      <name>СтраницаГлавнаяРасширеннаяПодсказка</name>
-      <id>39</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>Pages</type>
-    <extInfo xsi:type="form:PagesGroupExtInfo">
-      <pagesRepresentation>Auto</pagesRepresentation>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -332,16 +309,13 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ПутьКФайлу</name>
+    <name>ПутьКФайлуСтраницы</name>
     <title>
       <key>ru</key>
-      <value>Путь к файлу</value>
+      <value>Путь к файлу страницы</value>
     </title>
     <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -349,9 +323,39 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>ДобавитьОисание</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить оисание</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьОисание</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

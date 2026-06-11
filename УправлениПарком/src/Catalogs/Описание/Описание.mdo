@@ -32,10 +32,10 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Описание.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="83206fa6-72c9-4b1e-9e7d-ccea8ea98cbf">
-    <name>РасположениеВБазе</name>
+    <name>КомментарийРасположение</name>
     <synonym>
       <key>ru</key>
-      <value>Расположение в базе</value>
+      <value>Комментарий(расположение)</value>
     </synonym>
     <type>
       <types>String</types>
@@ -50,10 +50,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="66fc870f-cb1c-4c8e-b397-04035fe1f173">
-    <name>ПутьКФайлуОписания</name>
+    <name>ОписаниеХранилищеЗначений</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к файлу </value>
+      <value>Описание хранилище значений</value>
     </synonym>
     <type>
       <types>ValueStorage</types>

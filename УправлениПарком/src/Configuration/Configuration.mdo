@@ -1003,6 +1003,7 @@
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиПереопределяемый</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиПовтИсп</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиРегламентныеЗаданияВМоделиСервиса</commonModules>
+  <commonModules>CommonModule.ДФИ</commonModules>
   <commonModules>CommonModule.ЖурналРегистрации</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииКлиент</commonModules>

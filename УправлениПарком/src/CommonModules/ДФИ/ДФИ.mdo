@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfbed9fd-1acf-483f-bc7c-331985b44978">
+  <name>ДФИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамическое формирование интерфейса</value>
+  </synonym>
+  <comment>https://infostart.ru/1c/articles/1284403/</comment>
+  <server>true</server>
+</mdclass:CommonModule>
