@@ -1069,6 +1069,7 @@
   <commonModules>CommonModule.МашиночитаемыеДоверенностиФНССлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.МашиночитаемыеДоверенностиФНССлужебныйКлиент</commonModules>
   <commonModules>CommonModule.МашиночитаемыеДоверенностиФНССлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.МоиВспомогательные</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиент</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиентСервер</commonModules>
   <commonModules>CommonModule.МультиязычностьПереопределяемый</commonModules>

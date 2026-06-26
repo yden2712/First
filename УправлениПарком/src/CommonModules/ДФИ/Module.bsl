@@ -6,7 +6,7 @@
 //	Автор и разработчик: Котов Дмитрий Вадимович
 //	При поддержеке участников сообщества GitHub & Infostart
 //	https://github.com/KotovDima1C/DFI
-//	Инфостарт https://infostart.ru/profile/564942/
+//	Инфостарт https://infostart.ru/profile/564942/    ,    https://infostart.ru/1c/articles/1284403/
 //	telegram: @KotovDima
 //	
 //////////////////////////////////////////////////////////////////////////////////
