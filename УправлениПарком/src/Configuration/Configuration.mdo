@@ -316,6 +316,7 @@
   <commonPictures>CommonPicture.КонтактнаяИнформацияОтправитьЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке</commonPictures>
   <commonPictures>CommonPicture.КурсивноеНачертание</commonPictures>
+  <commonPictures>CommonPicture.Логотип1СОтчетность</commonPictures>
   <commonPictures>CommonPicture.Максимум</commonPictures>
   <commonPictures>CommonPicture.МенюДополнительныеФункции</commonPictures>
   <commonPictures>CommonPicture.МестоДляQRКода</commonPictures>
@@ -2212,6 +2213,7 @@
   <catalogs>Catalog.КлиентыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.КлючевыеОперации</catalogs>
   <catalogs>Catalog.КлючиДоступа</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
   <catalogs>Catalog.МашиночитаемыеДоверенности</catalogs>
   <catalogs>Catalog.МашиночитаемыеДоверенностиПрисоединенныеФайлы</catalogs>
@@ -2266,6 +2268,7 @@
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
+  <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.НазначениеОпросов</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
@@ -2312,6 +2315,7 @@
   <enums>Enum.ОперацииАдминистрированияПрофилейБезопасности</enums>
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
   <enums>Enum.ПериодОчисткиФайлов</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.ПорядокОтветовНаЗапросыУведомленийОПрочтении</enums>
   <enums>Enum.ПриоритетыОбъектовОбмена</enums>
@@ -2508,6 +2512,7 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.ФормаСозданнаяПрограммно</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</informationRegisters>

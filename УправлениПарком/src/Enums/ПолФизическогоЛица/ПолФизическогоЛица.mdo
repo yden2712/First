@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d736732-e3b0-4652-bc4b-e75f0aaa9a39">
+  <producedTypes>
+    <refType typeId="6df84005-58a7-474a-9a6e-e2ed45efe29e" valueTypeId="623291a8-8f57-492c-b220-365bfa5f8a67"/>
+    <listType typeId="97451184-9af8-4bff-878b-0d0bd4e57cb8" valueTypeId="e24ca445-96d9-47ae-b39c-2337fdf8a7ed"/>
+    <managerType typeId="053c4383-6e89-4197-b189-1ae814449904" valueTypeId="005736f4-dfd6-4748-bce8-93700afccdfc"/>
+  </producedTypes>
+  <name>ПолФизическогоЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пол физического лица</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

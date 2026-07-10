@@ -10,4 +10,5 @@
   <content>Catalog.Номенклатура</content>
   <content>DataProcessor.Описание</content>
   <content>Catalog.Описание</content>
+  <content>DataProcessor.ФормаСозданнаяПрограммно</content>
 </mdclass:Subsystem>

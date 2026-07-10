@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14dc02ba-2bc9-4315-8f59-128ae64cad81">
+  <producedTypes>
+    <objectType typeId="d9c9ee94-f2f5-40c5-bced-25b8d9ae0b60" valueTypeId="343c3edb-d233-40d5-9f18-778ef2841ac8"/>
+    <refType typeId="1d70ad3c-4039-4cde-a51d-6671f3bdf79c" valueTypeId="f076c762-9e50-45d3-b336-8b370f1d52ee"/>
+    <selectionType typeId="3a30a5ac-a6fc-4136-83ad-24b60f90709e" valueTypeId="37df8b54-563a-40a6-8295-602a4b5f6b36"/>
+    <listType typeId="1513a315-477c-4866-9fd5-82b15a273c27" valueTypeId="cc51fb9c-df0e-4d8a-9eef-aeab127a356d"/>
+    <managerType typeId="776cc07e-12fb-46a9-85db-ef91a41db36d" valueTypeId="52fb7f18-81ca-4674-8eb6-367cbd4de9b3"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказКлиента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f9ef54e2-eb64-4cf3-9edd-6994317d306c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90a092c9-ec4a-4b7b-a68e-4f122f003d80">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
