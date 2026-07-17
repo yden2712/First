@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
+    <name>ПутьКФайлуСтраницы</name>
+    <id>58</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПутьКФайлуСтраницы</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПутьКФайлуСтраницыРасширеннаяПодсказка</name>
+      <id>60</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПутьКФайлуСтраницыКонтекстноеМеню</name>
+      <id>59</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>StartChoice</event>
+        <name>ПутьКФайлуНачалоВыбора</name>
+      </handlers>
+      <handlers>
+        <event>Opening</event>
+        <name>ПутьКФайлуОткрытие</name>
+      </handlers>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <choiceButton>true</choiceButton>
+      <clearButton>true</clearButton>
+      <openButton>true</openButton>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>4</id>
     <visible>true</visible>
@@ -100,6 +151,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>false</verticalStretch>
         <wrap>true</wrap>
+        <choiceButton>false</choiceButton>
         <chooseType>true</chooseType>
         <textEdit>true</textEdit>
       </extInfo>
@@ -217,55 +269,6 @@
       <openButton>true</openButton>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ПутьКФайлуСтраницы</name>
-    <id>42</id>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ПутьКФайлуСтраницы</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ПутьКФайлуСтраницыРасширеннаяПодсказка</name>
-      <id>44</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ПутьКФайлуСтраницыКонтекстноеМеню</name>
-      <id>43</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <handlers>
-        <event>StartChoice</event>
-        <name>ПутьКФайлуНачалоВыбора</name>
-      </handlers>
-      <handlers>
-        <event>Opening</event>
-        <name>ПутьКФайлуОткрытие</name>
-      </handlers>
-      <autoMaxWidth>true</autoMaxWidth>
-      <verticalStretch>false</verticalStretch>
-      <wrap>true</wrap>
-      <choiceButton>true</choiceButton>
-      <clearButton>true</clearButton>
-      <openButton>true</openButton>
-      <chooseType>true</chooseType>
       <textEdit>true</textEdit>
     </extInfo>
   </items>
@@ -394,7 +397,12 @@
       <value>Путь к файлу страницы</value>
     </title>
     <id>2</id>
-    <valueType/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </valueType>
     <view>
       <common>true</common>
     </view>
